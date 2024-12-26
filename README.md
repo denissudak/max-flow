@@ -15,12 +15,12 @@ without exceeding the capacity of any arc. For example for the graph above the m
 
 ![Network 2](images/network2.png)
 
-By the time the algorithm terminates the original network gets transformed into residual graph.
+By the time the algorithm terminates the original network gets transformed into [residual graph](https://en.wikipedia.org/wiki/Flow_network#Residuals).
 For the second example the residual graph would look like this:
 
 ![Network 2 residual graph](images/network2-residual-graph.png)
 
-Comparing it to the original network can be used for recover the actual flow. Here's how the flow would look like for our example:
+Comparison to the original network can be used for recover the actual flow. Here's how the flow would look like for our example:
 
 ![Network 2 max flow](images/network2-max-flow.png)
 
